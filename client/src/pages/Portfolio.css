@@ -85,6 +85,14 @@
   display: block;
 }
 
+.gallery-item video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
+.gallery-item video::-moz-media-controls-fullscreen-button {
+  display: none;
+}
+
 .video-play-btn {
   position: absolute;
   top: 50%;
