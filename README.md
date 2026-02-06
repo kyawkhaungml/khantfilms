@@ -1,6 +1,6 @@
-# Frank Castillo Photography Website - Replica
+# KhantFilms Photography & Videography Website 
 
-A full-stack replica of the Frank Castillo Photography website built with React, Node.js, Express, and modern web technologies.
+A full-stack development of the KhantFilms Photography and Videography website built with React, Node.js, Express, and modern web technologies.
 
 ## 🎨 Features
 
@@ -272,7 +272,7 @@ npm install
 
 ## 📄 License
 
-This is a replica project for educational purposes.
+This is a project for a professional client.
 
 ## 🤝 Contributing
 
