@@ -1,1 +1,29 @@
-node_modules
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+client/dist/
+client/build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# DON'T ignore images in public!
+# Remove these lines if they exist:
+# *.jpg
+# *.png
+# *.mp4
+# client/public/images/
