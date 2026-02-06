@@ -66,7 +66,7 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <div className="container">
-          <video width="100%" height="auto" autoPlay muted loop>
+          <video width="100%" height="auto" autoPlay muted loop playsinline>
             <source src="/images/khantvideo/khantvideo2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
