@@ -1,0 +1,7 @@
+*.mp4
+*.mov
+*.avi
+client/src/images/Videos
+client/src/images/khantvideo
+node_modules
+.git
