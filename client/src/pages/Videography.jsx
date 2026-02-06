@@ -64,7 +64,6 @@ const Videography = () => {
               height="auto"
               onClick={() => handleVideoClick(`${index + 1}`)} 
               onEnded={() => handleVideoEnd(`${index + 1}`)}
-              muted
               playsInline
               webkitPlaysinline="true"
               preload="auto"
