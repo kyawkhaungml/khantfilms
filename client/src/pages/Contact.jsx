@@ -23,8 +23,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real application, this would send to a backend
-    console.log('Form submitted:', formData);
+    
+    // Create email body with form data
+    const emailBody = `Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0AMessage: ${formData.message}`;
+    
+    // Open mailto link with pre-filled data
+    window.location.href = `mailto:khantzinthant96@gmail.com?subject=Contact%20Form%20Submission&body=${emailBody}`;
+    
     setSubmitted(true);
     
     setTimeout(() => {

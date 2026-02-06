@@ -71,7 +71,8 @@
   border-color: var(--text-primary);
 }
 
-.newsletter-form button {
+.newsletter-form button,
+.contact-button {
   padding: 12px 30px;
   background-color: var(--text-primary);
   color: white;
@@ -80,9 +81,14 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.newsletter-form button:hover {
+.newsletter-form button:hover,
+.contact-button:hover {
   background-color: #444;
 }
 

@@ -1,21 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (email) {
-      setSubscribed(true);
-      setTimeout(() => {
-        setEmail('');
-        setSubscribed(false);
-      }, 3000);
-    }
-  };
 
   return (
     <footer className="footer">
@@ -33,17 +20,12 @@ const Footer = () => {
             <div className="newsletter-form">
               <h4>Work With Me</h4>
               <p>For business inquiries or potential collaborations, I welcome you to contact me via email.</p>
-              <form onSubmit={handleSubmit}>
-                <input 
-                  type="email" 
-                  placeholder="Email Address"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-                <button type="submit">Contact Me</button>
-              </form>
-              {subscribed && <p className="thank-you">Thank you!</p>}
+              <a 
+                href="mailto:khantzinthant96@gmail.com"
+                className="contact-button"
+              >
+                Contact Me
+              </a>
             </div>
           </div>
         </div>
