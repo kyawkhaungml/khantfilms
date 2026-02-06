@@ -63,6 +63,7 @@ const Videography = () => {
               width="100%" 
               onClick={() => handleVideoClick(`${index + 1}`)} 
               onEnded={() => handleVideoEnd(`${index + 1}`)}
+              playsinline
             >
               <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
