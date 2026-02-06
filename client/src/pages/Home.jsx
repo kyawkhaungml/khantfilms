@@ -66,10 +66,20 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <div className="container">
-          <video width="100%" height="auto" autoPlay muted loop playsinline webkit-playsinline>
-            <source src="/images/khantvideo/khantvideo2.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+      <video 
+        width="100%" 
+        height="auto" 
+        autoPlay 
+        muted 
+        loop 
+        playsInline  // ✅ Correct React camelCase (not playsinline)
+        webkit-playsinline="true"  // ✅ For older iOS versions
+        preload="auto"
+        style={{ display: 'block', width: '100%', height: 'auto' }}
+      >
+        <source src="/images/khantvideo/khantvideo2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         </div>
       </motion.section>
 
