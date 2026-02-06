@@ -1,5 +1,3 @@
 *.mov
 *.avi
-client/src/images/Videos
-node_modules
-.git
+
