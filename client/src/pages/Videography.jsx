@@ -61,10 +61,14 @@ const Videography = () => {
             <video 
               id={`video-${index + 1}`} 
               width="100%" 
+              height="auto"
               onClick={() => handleVideoClick(`${index + 1}`)} 
               onEnded={() => handleVideoEnd(`${index + 1}`)}
-              playsinline
-              webkit-playsinline
+              muted
+              playsInline
+              webkitPlaysinline="true"
+              preload="auto"
+              style={{ display: 'block', width: '100%', height: 'auto' }}
             >
               <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
