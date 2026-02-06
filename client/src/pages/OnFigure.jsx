@@ -1,22 +1,23 @@
 import React, { useEffect } from 'react';
 import './Portfolio.css';
-import img1 from '../images/On_Figure/DSC00399.JPG';
-import img2 from '../images/On_Figure/DSC00414.JPG';
-import img3 from '../images/On_Figure/DSC00438.JPG';
-import img4 from '../images/On_Figure/DSC09846.JPG';
-import img5 from '../images/On_Figure/DSC09854.JPG';
-import img6 from '../images/On_Figure/DSC09855.JPG';
-import img7 from '../images/On_Figure/DSC09868.JPG';
-import img8 from '../images/On_Figure/DSC09873.JPG';
-import img9 from '../images/On_Figure/IMG_0104 (2).PNG';
-import img10 from '../images/On_Figure/IMG_0106 (1).PNG';
 
 const OnFigure = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const images = [img9,img1, img2, img3, img4, img5, img6, img7, img8, img10];
+  const images = [
+    '/images/On_Figure/IMG_0104 (2).PNG',
+    '/images/On_Figure/DSC00399.JPG',
+    '/images/On_Figure/DSC00414.JPG',
+    '/images/On_Figure/DSC00438.JPG',
+    '/images/On_Figure/DSC09846.JPG',
+    '/images/On_Figure/DSC09854.JPG',
+    '/images/On_Figure/DSC09855.JPG',
+    '/images/On_Figure/DSC09868.JPG',
+    '/images/On_Figure/DSC09873.JPG',
+    '/images/On_Figure/IMG_0106 (1).PNG'
+  ];
 
   return (
     <div className="portfolio-page">

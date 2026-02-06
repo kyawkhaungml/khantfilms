@@ -1,19 +1,20 @@
 import React, { useEffect } from 'react';
 import './Portfolio.css';
-import img1 from '../images/Jewelry/DSC00553.jpg';
-import img2 from '../images/Jewelry/DSC00562.jpg';
-import img3 from '../images/Jewelry/DSC00567.jpg';
-import img4 from '../images/Jewelry/DSC00778-2.JPG';
-import img5 from '../images/Jewelry/DSC08172.JPG';
-import img6 from '../images/Jewelry/DSC08181.JPG';
-import img7 from '../images/Jewelry/DSC08192.JPG';
 
 const Jewelry = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const images = [img1, img2, img3, img4, img5, img6, img7];
+  const images = [
+    '/images/Jewelry/DSC00553.jpg',
+    '/images/Jewelry/DSC00562.jpg',
+    '/images/Jewelry/DSC00567.jpg',
+    '/images/Jewelry/DSC00778-2.JPG',
+    '/images/Jewelry/DSC08172.JPG',
+    '/images/Jewelry/DSC08181.JPG',
+    '/images/Jewelry/DSC08192.JPG'
+  ];
 
   return (
     <div className="portfolio-page">

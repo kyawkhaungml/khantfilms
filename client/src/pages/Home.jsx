@@ -2,8 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './Home.css';
-import khantvideo from 'client/src/images/khantvideo/khantvideo2.mp4';
-import jewelryPhoto from '../images/Jewelry/DSC00567.jpg';
 
 const Home = () => {
   const observerRef = useRef(null);
@@ -37,7 +35,7 @@ const Home = () => {
   const portfolioItems = [
     {
       title: 'JEWELRY PHOTOGRAPHY',
-      image: jewelryPhoto,
+      image: '/images/Jewelry/DSC00567.jpg',
       link: '/jewelry-photographer'
     },
     {
@@ -69,7 +67,7 @@ const Home = () => {
       >
         <div className="container">
           <video width="100%" height="auto" autoPlay muted loop>
-            <source src={khantvideo} type="video/mp4" />
+            <source src="/images/khantvideo/khantvideo2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
