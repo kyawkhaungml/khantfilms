@@ -8,14 +8,15 @@ import img5 from '../images/On_Figure/DSC09854.JPG';
 import img6 from '../images/On_Figure/DSC09855.JPG';
 import img7 from '../images/On_Figure/DSC09868.JPG';
 import img8 from '../images/On_Figure/DSC09873.JPG';
-import img9 from '../images/On_Figure/DSC09902.JPG';
+import img9 from '../images/On_Figure/IMG_0104 (2).PNG';
+import img10 from '../images/On_Figure/IMG_0106 (1).PNG';
 
 const OnFigure = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
+  const images = [img9,img1, img2, img3, img4, img5, img6, img7, img8, img10];
 
   return (
     <div className="portfolio-page">
