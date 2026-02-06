@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './Home.css';
-import khantvideo from '../images/khantvideo/khantvideo2.mp4';
+import khantvideo from 'client/src/images/khantvideo/khantvideo2.mp4';
 import jewelryPhoto from '../images/Jewelry/DSC00567.jpg';
 
 const Home = () => {
