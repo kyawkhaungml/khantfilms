@@ -33,7 +33,7 @@ A full-stack development of the KhantFilms Photography and Videography website b
 ## 📁 Project Structure
 
 ```
-frank-castillo-photography/
+khantfilms/
 ├── client/                 # Frontend React application
 │   ├── src/
 │   │   ├── components/    # Reusable components
@@ -67,110 +67,6 @@ frank-castillo-photography/
 └── package.json          # Root package.json
 
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd frank-castillo-photography
-   ```
-
-2. **Install all dependencies**
-   ```bash
-   npm run install-all
-   ```
-   
-   Or install manually:
-   ```bash
-   # Install root dependencies
-   npm install
-   
-   # Install client dependencies
-   cd client && npm install
-   
-   # Install server dependencies
-   cd ../server && npm install
-   ```
-
-3. **Set up environment variables**
-   ```bash
-   cd server
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
-
-### Running the Application
-
-#### Development Mode (Both Frontend and Backend)
-
-```bash
-# From the root directory
-npm run dev
-```
-
-This will start:
-- Frontend dev server on `http://localhost:3000`
-- Backend API server on `http://localhost:5000`
-
-#### Run Frontend Only
-
-```bash
-npm run client
-```
-
-#### Run Backend Only
-
-```bash
-npm run server
-```
-
-#### Production Build
-
-```bash
-# Build the frontend
-npm run build
-
-# Start the production server
-npm start
-```
-
-## 📡 API Endpoints
-
-### Health Check
-- **GET** `/api/health` - Server health check
-
-### Contact Form
-- **POST** `/api/contact`
-  ```json
-  {
-    "name": "John Doe",
-    "email": "john@example.com",
-    "phone": "123-456-7890",
-    "message": "Your message here"
-  }
-  ```
-
-### Newsletter
-- **POST** `/api/newsletter`
-  ```json
-  {
-    "email": "user@example.com"
-  }
-  ```
-
-### Portfolio
-- **GET** `/api/portfolio/:category` - Get portfolio items by category
-
-### Blog
-- **GET** `/api/blog` - Get all blog posts
 
 ## 🎨 Design & Styling
 
