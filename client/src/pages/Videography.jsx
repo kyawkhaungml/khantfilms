@@ -67,6 +67,7 @@ const Videography = () => {
               playsInline
               webkitPlaysinline="true"
               preload="auto"
+              controls
               style={{ display: 'block', width: '100%', height: 'auto' }}
             >
               <source src={video} type="video/mp4" />
