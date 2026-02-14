@@ -124,7 +124,7 @@ const Home = () => {
             </div>
             <div className="about-image">
               <img 
-                src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/485371138_3989371051381685_4241244702776688572_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=veAAz9zNcWUQ7kNvwEPW8us&_nc_oc=AdlWE3jG_oJGfCs_PlHUmFhHJ0Uj2STRxwTKy5UbBNyiBANQvSSctp5iUCsoSi8Z2pw&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=_RcVJNSB8qKABLSoPM4R4g&oh=00_AfvK0H2OteOw7DGesYvNMqxv3uTpyC5ix9GYfQsvsVqoQA&oe=698B04D9" 
+                src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/485371138_3989371051381685_4241244702776688572_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vbVu2YfmwxEQ7kNvwF2PQ_r&_nc_oc=AdlmSRK2TDBDYdXbIszN8NCIlYhsq2FgHWQbZxlckOZmigt8kTA2wsuX2xITnJiobf0&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=tHHl-82A2__QA4VjuzGY4w&oh=00_Afu_KqEqGGK2Doy5L0OtLGb_TtJspdNo3oPKdlYW6rzI_Q&oe=6995C919" 
                 alt="Khant Zin Thant"
               />
             </div>
