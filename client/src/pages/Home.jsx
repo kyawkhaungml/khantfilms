@@ -124,7 +124,7 @@ const Home = () => {
             </div>
             <div className="about-image">
               <img 
-                src="\images\khant.jpg" 
+                src="images/Watches/khant.jpg" 
                 alt="Khant Zin Thant"
               />
             </div>
