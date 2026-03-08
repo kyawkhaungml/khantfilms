@@ -16,7 +16,6 @@ const Watches = () => {
     '/images/Watches/DSC01427.JPG',
     '/images/Watches/DSC01428.JPG',
     '/images/Watches/DSC01984.jpg',
-    '/images/Watches/DSC01992%20(1).jpg',
     '/images/Watches/DSC01992.jpg',
     '/images/Watches/DSC02113.jpg',
     '/images/Watches/DSC02154.jpg',
