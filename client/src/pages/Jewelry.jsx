@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import GalleryImage from '../components/GalleryImage';
 import './Portfolio.css';
 
 const Jewelry = () => {
@@ -10,10 +11,10 @@ const Jewelry = () => {
     '/images/Jewelry/DSC00553.jpg',
     '/images/Jewelry/DSC00562.jpg',
     '/images/Jewelry/DSC00567.jpg',
-    '/images/Jewelry/DSC00778-2.JPG',
-    '/images/Jewelry/DSC08172.JPG',
-    '/images/Jewelry/DSC08181.JPG',
-    '/images/Jewelry/DSC08192.JPG'
+    '/images/Jewelry/DSC00778-2.jpg',
+    '/images/Jewelry/DSC08172.jpg',
+    '/images/Jewelry/DSC08181.jpg',
+    '/images/Jewelry/DSC08192.jpg'
   ];
 
   return (
@@ -26,7 +27,7 @@ const Jewelry = () => {
       <div className="portfolio-gallery">
         {images.map((image, index) => (
           <div key={index} className="gallery-item" style={{ animationDelay: `${index * 0.1}s` }}>
-            <img src={image} alt={`Jewelry ${index + 1}`} loading="lazy" />
+            <GalleryImage src={image} alt={`Jewelry ${index + 1}`} />
           </div>
         ))}
       </div>

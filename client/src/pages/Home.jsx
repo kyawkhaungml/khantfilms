@@ -75,9 +75,10 @@ const Home = () => {
         playsInline  // ✅ Correct React camelCase (not playsinline)
         webkit-playsinline="true"  // ✅ For older iOS versions
         preload="auto"
+        poster="/images/videos/hero.jpg"
         style={{ display: 'block', width: '100%', height: 'auto' }}
       >
-        <source src="/images/khantvideo/khantvideo2.mp4" type="video/mp4" />
+        <source src="/images/videos/hero.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
         </div>

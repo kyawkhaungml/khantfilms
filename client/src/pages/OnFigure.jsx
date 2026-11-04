@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import GalleryImage from '../components/GalleryImage';
 import './Portfolio.css';
 
 const OnFigure = () => {
@@ -7,16 +8,16 @@ const OnFigure = () => {
   }, []);
 
   const images = [
-    '/images/On_Figure/IMG_0104 (2).PNG',
-    '/images/On_Figure/DSC00399.JPG',
-    '/images/On_Figure/DSC00414.JPG',
-    '/images/On_Figure/DSC00438.JPG',
-    '/images/On_Figure/DSC09846.JPG',
-    '/images/On_Figure/DSC09854.JPG',
-    '/images/On_Figure/DSC09855.JPG',
-    '/images/On_Figure/DSC09868.JPG',
-    '/images/On_Figure/DSC09873.JPG',
-    '/images/On_Figure/IMG_0106 (1).PNG'
+    '/images/On_Figure/IMG_0104-2.jpg',
+    '/images/On_Figure/DSC00399.jpg',
+    '/images/On_Figure/DSC00414.jpg',
+    '/images/On_Figure/DSC00438.jpg',
+    '/images/On_Figure/DSC09846.jpg',
+    '/images/On_Figure/DSC09854.jpg',
+    '/images/On_Figure/DSC09855.jpg',
+    '/images/On_Figure/DSC09868.jpg',
+    '/images/On_Figure/DSC09873.jpg',
+    '/images/On_Figure/IMG_0106-1.jpg'
   ];
 
   return (
@@ -29,7 +30,7 @@ const OnFigure = () => {
       <div className="portfolio-gallery">
         {images.map((image, index) => (
           <div key={index} className="gallery-item" style={{ animationDelay: `${index * 0.1}s` }}>
-            <img src={image} alt={`On Figure ${index + 1}`} loading="lazy" />
+            <GalleryImage src={image} alt={`On Figure ${index + 1}`} />
           </div>
         ))}
       </div>

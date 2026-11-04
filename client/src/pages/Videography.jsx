@@ -5,14 +5,14 @@ const Videography = () => {
   const [playing, setPlaying] = useState({});
 
   const videos = [
-    '/images/Videos/Timeline 1(2).mp4',
-    '/images/Videos/Timeline 1 (1).mp4',
-    '/images/Videos/Timeline 1.mp4',
-    '/images/Videos/Timeline 2 (1).mp4',
-    '/images/Videos/Timeline 2.mp4',
-    '/images/Videos/bap.mp4',
-    '/images/Videos/rolex.mp4',
-    '/images/Videos/cartier.mp4'
+    { src: '/images/videos/timeline-1c.mp4', poster: '/images/videos/timeline-1c.jpg' },
+    { src: '/images/videos/timeline-1b.mp4', poster: '/images/videos/timeline-1b.jpg' },
+    { src: '/images/videos/timeline-1a.mp4', poster: '/images/videos/timeline-1a.jpg' },
+    { src: '/images/videos/timeline-2b.mp4', poster: '/images/videos/timeline-2b.jpg' },
+    { src: '/images/videos/timeline-2a.mp4', poster: '/images/videos/timeline-2a.jpg' },
+    { src: '/images/videos/bap.mp4', poster: '/images/videos/bap.jpg' },
+    { src: '/images/videos/rolex.mp4', poster: '/images/videos/rolex.jpg' },
+    { src: '/images/videos/cartier.mp4', poster: '/images/videos/cartier.jpg' }
   ];
 
   useEffect(() => {
@@ -66,11 +66,12 @@ const Videography = () => {
               onEnded={() => handleVideoEnd(`${index + 1}`)}
               playsInline
               webkitPlaysinline="true"
-              preload="auto"
+              preload="none"
+              poster={video.poster}
               controls
               style={{ display: 'block', width: '100%', height: 'auto' }}
             >
-              <source src={video} type="video/mp4" />
+              <source src={video.src} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {!playing[`${index + 1}`] && (

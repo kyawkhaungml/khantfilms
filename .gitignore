@@ -27,3 +27,6 @@ client/build/
 # *.png
 # *.mp4
 # client/public/images/
+
+# Full-size source media (kept locally, re-encoded into client/public/images by scripts/)
+media-originals/
