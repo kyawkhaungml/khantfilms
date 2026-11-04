@@ -106,34 +106,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <section className="about-section animate-on-scroll">
-        <div className="container">
-          <div className="about-grid">
-            <div className="about-content">
-              <h2>Meet Khant</h2>
-              <p>
-                Khant Zin Thant is a creative marketing professional and content strategist specializing in jewelry promotion and brand storytelling within the Diamond District. Originally from Myanmar (Burma), he brings a global perspective to luxury marketing, blending cultural insight with hands-on experience in the jewelry industry.
-              </p>
-              <p>
-                Through his work managing marketing initiatives and producing engaging content, Khant has developed a strong understanding of how to present fine jewelry in a way that highlights craftsmanship, design, and brand identity. His ability to curate compelling visual and digital narratives helps connect luxury products with the right audiences across social and digital platforms.
-              </p>
-              <p>
-                Whether he is promoting a statement piece or developing marketing strategies to elevate a brand’s presence, Khant Zin Thant approaches his work with creativity, attention to detail, and a clear focus on delivering meaningful impact in the highly competitive jewelry market.
-              </p>
-            </div>
-            <div className="about-image">
-              <img 
-                src="images/Watches/khant.jpg" 
-                alt="Khant Zin Thant"
-              />
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-
     </div>
   );
 };
